@@ -6,25 +6,25 @@ const projects = [
     title: "MusicX",
     description: "A Spotify-like app built with React Native.",
     tech: "React Native, TrackPlayer, AsyncStorage",
-    link: "#",
+    link: "https://drive.google.com/file/d/1gdKaeDaYhTJYCIDn4mmE1B3AIDkQeDoM/view?usp=drivesdk",
   },
   {
     title: "YouTube Downloader",
     description: "A web app to download YouTube videos and audio.",
     tech: "Node.js, YTDL-Core, FFmpeg",
-    link: "#",
+    link: "https://github.com/sonu36437/youtube-video-downloader/tree/main",
   },
   {
     title: "Spread",
     description: "A web app for reporting locality issues with admin panel.",
     tech: "React.js, Node.js, MongoDB",
-    link: "#",
+    link: "https://github.com/lastcoder70/Spread/tree/main",
   },
   {
     title: "Portfolio Website",
     description: "A responsive portfolio with animations and Bento layout.",
     tech: "React.js, Tailwind CSS, Framer Motion",
-    link: "#",
+    link: "https://github.com/sonu36437/sonuPortfolio/tree/main",
   },
 ];
 
