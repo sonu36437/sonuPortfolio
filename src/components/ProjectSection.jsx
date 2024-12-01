@@ -55,7 +55,7 @@ const ProjectSection = () => {
         viewport={{ once: false, amount: 0.2 }} 
         transition={{ duration: 1 }}
       >
-        <h2 className="text-4xl font-bold text-yellow-400">Projects</h2>
+        <h2 className="text-4xl font-bold text-[#AFE1AF]">Projects</h2>
         <p className="text-gray-400 mt-4">
           Explore some of the projects I've worked on.
         </p>
@@ -78,7 +78,7 @@ const ProjectSection = () => {
             whileHover={{ scale: 1.05 }}
           >
         
-            <h3 className="text-xl font-semibold text-yellow-400 mb-2">
+            <h3 className="text-xl font-semibold text-[#AFE1AF] mb-2">
               {project.title}
             </h3>
          
@@ -87,11 +87,11 @@ const ProjectSection = () => {
             <p className="text-gray-500 text-xs">Tech: {project.tech}</p>
 
           
-            <div className="absolute inset-0 bg-yellow-400 opacity-0 group-hover:opacity-10 transition-all duration-300"></div>
+            <div className="absolute inset-0 bg-[#AFE1AF] opacity-0 group-hover:opacity-10 transition-all duration-300"></div>
            
             <a
               href={project.link}
-              className="absolute bottom-4 right-4 text-yellow-400 text-sm underline hover:text-yellow-300"
+              className="absolute bottom-4 right-4 text-[#AFE1AF] text-sm underline hover:text-yellow-300"
             >
               View Project
             </a>

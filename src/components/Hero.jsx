@@ -46,7 +46,7 @@ const HeroSection = () => {
           viewport={{ once: false, amount: 0.1 }}
         >
           <h1 className="text-4xl md:text-6xl font-bold mb-4">
-            I am <span className="text-yellow-400">Sonu Kumar</span>
+            I am <span className="text-[#AFE1AF]">Sonu Kumar</span>
           </h1>
           <p className="text-gray-400 text-lg md:text-xl mb-10">
             A passionate web and mobile application developer, building modern, responsive, and interactive digital solutions.
